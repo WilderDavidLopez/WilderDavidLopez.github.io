@@ -1,0 +1,49 @@
+*{
+	box-sizing:border-box;
+}
+
+#titulo
+{
+	left:720px;
+	position:relative;
+	margin:center;	
+}
+
+body {
+background-color: white
+}
+
+#BarraDeNavegacion {
+	margin:auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: center;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+	display: inline-block;
+	width:12%;
+}
+
+#Home{ 	
+margin-left: 26%;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightblue;
+	color: black;
+	transition: 2s;
+}
+
